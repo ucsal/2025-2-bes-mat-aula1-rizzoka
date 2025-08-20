@@ -1,10 +1,11 @@
 package cms.user;
 
 public abstract class User {
-	private final int id;
-	private final String nome;
-	private final String email;
-	private final String password;
+	
+	protected final int id;
+	protected final String nome;
+	protected final String email;
+	protected final String password;
 	
 	public User(int id, String nome, String email, String password) {
 		this.id = id;
